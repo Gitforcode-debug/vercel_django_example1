@@ -23,6 +23,8 @@
   - vercel # (for preview)
   - vercel --prod # (for production)
 
+  #### IMPORTANT: Need to .env locally and for vercel deployment, but to be ignored for Git
+
 - Hiding secret key:
 
   - Create .env file in the directory as settings.py , and add it to .gitignore
